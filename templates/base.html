@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Flask Angular Base</title>
+    <script src="/js/angular.min.js" charset="utf-8"></script>
+    <script src="/js/angular-route.min.js" charset="utf-8"></script>
+    <script src="/app.js" charset="utf-8"></script>
+    <base href="/" target="_blank" />
+  </head>
+  <body id="app" ng-app="app">
+    <ul>
+      <li>
+        <a href="/">Home</a>
+      </li>
+    </ul>
+    <ng-view></ng-view>
+  </body>
+</html>
